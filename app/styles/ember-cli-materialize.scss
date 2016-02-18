@@ -20,3 +20,13 @@
   background-color: black;
   opacity: 0.5;
 }
+
+.input-field small.red-text{
+	display:none;
+    transition: 5.2s ease-out;
+}
+
+.input-field.has-error small.red-text{
+	display:inherit;
+	
+}

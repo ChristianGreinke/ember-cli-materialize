@@ -4,7 +4,7 @@ import layout from '../templates/components/md-input';
 export default MaterializeInputField.extend({
   layout,
   type: 'text',
-
+  classNameBindings:['isInvalid:has-error'],
   didInsertElement() {
     this._super(...arguments);
     // make sure the label moves when a value is bound.
